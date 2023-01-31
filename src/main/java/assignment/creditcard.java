@@ -25,7 +25,7 @@ class Crddeatils implements Cloneable{
         return  super.clone();
     }
 }
-public class creditcard {
+public class CREDITCARD {
 
     private static final Logger LOGGER = Logger.getLogger("InfoLogging");
     public static void main(String[] args) throws CloneNotSupportedException{
