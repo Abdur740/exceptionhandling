@@ -30,7 +30,7 @@ class SimpleBankAcc{
         if(withdrawAmt < balance){
             balance-=withdrawAmt;
             String x1 = "Your current balance: "+balance;
-            LOGGER.info(x1);
+            LOGGER.info(x1); 
         }
         else
         {
